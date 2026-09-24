@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+/* Custom theme overrides */
+@theme {
+  --color-primary: #6366f1;
+  --color-primary-dark: #4f46e5;
+  --color-primary-light: #818cf8;
+  --color-secondary: #f59e0b;
+  --color-accent: #10b981;
+  --color-danger: #ef4444;
+  --color-dark: #1e293b;
+  --color-light: #f8fafc;
+}
+
+/* Quill editor styles */
+.ql-editor {
+  min-height: 200px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.ql-toolbar.ql-snow {
+  border-radius: 8px 8px 0 0;
+  border-color: #e2e8f0;
+}
+
+.ql-container.ql-snow {
+  border-radius: 0 0 8px 8px;
+  border-color: #e2e8f0;
+}
+
+/* Blog content styles */
+.blog-content h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0.67em 0;
+}
+
+.blog-content h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0.83em 0;
+}
+
+.blog-content h3 {
+  font-size: 1.17em;
+  font-weight: 600;
+  margin: 1em 0;
+}
+
+.blog-content p {
+  margin: 1em 0;
+  line-height: 1.8;
+}
+
+.blog-content ul,
+.blog-content ol {
+  padding-left: 2em;
+  margin: 1em 0;
+}
+
+.blog-content li {
+  margin: 0.5em 0;
+}
+
+.blog-content blockquote {
+  border-left: 4px solid #6366f1;
+  padding-left: 1em;
+  margin: 1em 0;
+  color: #64748b;
+  font-style: italic;
+}
+
+.blog-content a {
+  color: #6366f1;
+  text-decoration: underline;
+}
+
+.blog-content img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.blog-content pre {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 1em;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.blog-content code {
+  background: #f1f5f9;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.blog-content strong {
+  font-weight: 700;
+}
+
+.blog-content em {
+  font-style: italic;
+}
