@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node --watch server.js",
     "start": "node server.js",
-    "seed": "node seed.js"
+    "seed": "node seed/seed.js",
+    "production" : "cd .. && cd frontend && npm run build"
   },
   "keywords": [],
   "author": "",
