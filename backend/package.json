@@ -2,12 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
-    "dev": "node --watch server.js",
-    "start": "node server.js",
-    "seed": "node seed/seed.js",
-    "production" : "cd .. && cd frontend && npm run build"
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seed/seed.js",
+    "start" : "node src/server.js"
   },
   "keywords": [],
   "author": "",
